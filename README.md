@@ -1,5 +1,11 @@
 # Business Central Chrome Extension
 
+This little Chrome extension adds some options to BUsiness Central :
+
+- Colorize the Dynamics Nav Ribbon for specific URL base.
+- Add a button to link to the Change Password page.
+- Display additionnal informations about sales / purchases documents.
+
 ## Objective
 
 - [x] Add option to change the ribbon color when the user is connected on BC180
@@ -17,6 +23,7 @@
     - [ ] Ribbon colorization
     - [ ] Password change button
     - [ ] Sales documents informations
+    - [ ] Purchases documents informations
 - [ ] Add a *Settings* section
     - [ ] Environment on which to activate the functionnality
         - [ ] Production
