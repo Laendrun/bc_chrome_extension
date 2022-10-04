@@ -19,16 +19,13 @@ This little Chrome extension adds some options to BUsiness Central :
 
 ### Option page
 
-- [ ] Add a section to activate or deactivate the different functionnality
-    - [ ] Ribbon colorization
-    - [ ] Password change button
-    - [ ] Sales documents informations
-    - [ ] Purchases documents informations
-- [ ] Add a *Settings* section
-    - [ ] Environment on which to activate the functionnality
-        - [ ] Production
-        - [ ] Preproduction
-        - [ ] Both
+- [x] Add a section to activate or deactivate the different functionnality
+    - [x] Ribbon colorization
+    - [x] Password change button
+    - [x] Sales documents informations
+    - [x] Purchases documents informations
+- [x] Add a section to configure the Ribbon colorization
+    - [x] Ribbon Color
 
 ### Extension Popup
 

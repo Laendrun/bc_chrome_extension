@@ -2,41 +2,38 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/simple.min.css">
+        <link rel="stylesheet" href="css/options.css">
         <title>Business Central - GRM</title>
     </head>
     <body>
-        <section id="func_activation">
-            <p>Check which functionnalities you want to activate</p>
+        <section id="func_activation_section">
+            <p>Check which functionalities you want to activate</p>
             <label>
-                <input type="checkbox" id="" />
+                <input type="checkbox" id="func_ribbon_col" />
                 Ribbon Colorization
             </label>
             <label>
-                <input type="checkbox" id="" />
+                <input type="checkbox" id="func_pass_change" />
                 Password Change Button
             </label>
             <label>
-                <input type="checkbox" id="" />
+                <input type="checkbox" id="func_sales_infos" />
                 Sales Docs Informations
             </label>
             <label>
-                <input type="checkbox" id="" />
-                Purhcases Docs Informations
+                <input type="checkbox" id="func_purch_infos" />
+                Purchases Docs Informations
             </label>
         </section>
 
-        <h3>Options</h3>
-        <h4>Ribbon Color</h4>
-        <select id="color">
-            <option value="#FF0000">Red</option> <!-- #FF0000 -->
-            <option value="#00FF00">Green</option> <!-- #00FF00 -->
-            <option value="#0000FF">Blue</option> <!-- #0000FF -->
-        </select>
-
-        <label>
-            <input type="checkbox" id="ribbon_color_option">
-            Activate ribbon colorization
-        </label>
+        <section id="ribbon_color_options_section">
+            <p>Choose ribbon color :</p>
+            <select id="ribbon_col_color">
+                <option value="#FF0000">Red</option> <!-- #FF0000 -->
+                <option value="#00FF00">Green</option> <!-- #00FF00 -->
+                <option value="#0000FF">Blue</option> <!-- #0000FF -->
+            </select>
+        </section>
 
         <div id="status"></div>
         <button id="save">Save</button>
