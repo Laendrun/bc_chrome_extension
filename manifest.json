@@ -1,0 +1,21 @@
+{
+    "name": "BC Chrome Extension",
+    "description": "Add options to Business Central",
+    "version": "1.0",
+    "manifest_version": 3,
+    "options_page": "options.html",
+    "permissions": ["storage", "tabs"],
+    "host_permissions": [
+        "*://bc.groupe-r.ch/bc180/*",
+        "*://bc.groupe-r.ch/BC180/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://bc.groupe-r.ch/bc180/*", "*://bc.groupe-r.ch/BC180/*"],
+            "js": ["js/change_ribbon_color.js"]
+        }
+    ]
+}
